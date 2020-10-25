@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 767px) {
+  nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+nav .logo {
+  background-color: blue;
+  min-height: 50px;
+}
+
+@media screen and (min-width: 767px) {
+  nav .logo {
+    width: 150px;
+    min-height: 80px;
+  }
+}
+
+nav .site-menu {
+  background-color: coral;
+  width: 100%;
+  min-height: 80px;
+}
+
+nav .contacts {
+  background-color: yellow;
+  min-height: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  nav .contacts {
+    width: 150px;
+    min-height: 80px;
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  nav .contacts {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.left-part {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .left-part {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.some-info {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .some-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.some-info .first {
+  background-color: crimson;
+  min-height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .some-info .first {
+    width: 60%;
+  }
+}
+
+.some-info .second {
+  background-color: darkcyan;
+  min-height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .some-info .second {
+    width: 40%;
+  }
+}
+
+.more-info {
+  display: block;
+  width: 100%;
+  background-color: darkturquoise;
+  min-height: 400px;
+}
+
+section {
+  width: 100%;
+  background-color: greenyellow;
+  min-height: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

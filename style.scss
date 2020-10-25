@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav {
+  @media screen and(min-width:767px) {
+    display: flex;
+  }
+  .logo {
+    background-color: blue;
+    min-height: 50px;
+    @media screen and(min-width:767px) {
+      width: 150px;
+      min-height: 80px;
+    }
+  }
+  .site-menu {
+    background-color: coral;
+    width: 100%;
+    min-height: 80px;
+  }
+  .contacts {
+    background-color: yellow;
+    min-height: 50px;
+    @media screen and(min-width:768px) {
+      width: 150px;
+      min-height: 80px;
+      display: none;
+    }
+    @media screen and(min-width:1024px) {
+      display: block;
+    }
+  }
+}
+.information {
+  @media screen and(min-width:768px) {
+    display: flex;
+  }
+}
+.left-part {
+  width: 100%;
+  @media screen and(min-width:768px) {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.some-info {
+  @media screen and(min-width:768px) {
+    display: flex;
+  }
+  width: 100%;
+  .first {
+    background-color: crimson;
+    min-height: 80px;
+    @media screen and(min-width:768px) {
+      width: 60%;
+    }
+  }
+  .second {
+    background-color: darkcyan;
+    min-height: 80px;
+    @media screen and(min-width:768px) {
+      width: 40%;
+    }
+  }
+}
+.more-info {
+  display: block;
+  width: 100%;
+  background-color: darkturquoise;
+  min-height: 400px;
+}
+section {
+  width: 100%;
+  background-color: greenyellow;
+  min-height: 400px;
+  @media screen and(min-width:768px) {
+    width: 50%;
+  }
+}
